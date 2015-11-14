@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		809CB0251116CBA485B9B17C /* MJDigitalXLargeWatchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 809CB22D86ECB0BA4A64BE45 /* MJDigitalXLargeWatchView.h */; };
+		809CB1358EC600B045B1B516 /* MJImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CB2C7F0B343249F40CDA3 /* MJImageLoader.m */; };
+		809CB1B20271FA3D91608483 /* NSImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CB1EAE8FAC714BC19252E /* NSImage+Utils.m */; settings = {ASSET_TAGS = (); }; };
+		809CB1E005C9B18D28B5D6EF /* MJPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CB77B4AA7E892738102AA /* MJPreferences.m */; };
+		809CB2040BE4D184370DE43D /* MJPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = 809CB6014885209F003A236E /* MJPreferences.h */; };
+		809CB2360E27EDBAE9699F27 /* MJColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CB67F09507E99A74C7D1E /* MJColor.m */; settings = {ASSET_TAGS = (); }; };
+		809CB2AC0197D9ACCE553481 /* MJAnalogUtilityWatchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 809CB6B0E9D30925C0079076 /* MJAnalogUtilityWatchView.h */; settings = {ASSET_TAGS = (); }; };
+		809CB2B07AA6B7CC79C8BAF5 /* MJAnalogNormalWatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CBE56A38308A94FF607DD /* MJAnalogNormalWatchView.m */; settings = {ASSET_TAGS = (); }; };
+		809CB31B01D7A15696EC07F1 /* MJAnalogSimpleWatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CB82EB8D72F054AF1F73A /* MJAnalogSimpleWatchView.m */; settings = {ASSET_TAGS = (); }; };
+		809CB3D8AEDD2392A3CD41BF /* MJAnalogChronoWatchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 809CBF5CF87460963C993A3A /* MJAnalogChronoWatchView.h */; settings = {ASSET_TAGS = (); }; };
+		809CB43282E6DAD2F1516CB8 /* MJAnalogWatchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 809CBFA83CF87AB74AA34C19 /* MJAnalogWatchView.h */; settings = {ASSET_TAGS = (); }; };
+		809CB4908E526900810BCBE9 /* MJAnalogChronoWatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CBC3A6690274C31325A33 /* MJAnalogChronoWatchView.m */; settings = {ASSET_TAGS = (); }; };
+		809CB561C316A8A2C36F8D2A /* MJImageLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 809CB7D1759DD755DA9B9AEF /* MJImageLoader.h */; };
+		809CB5B7FB05CA22379CC81B /* MJAnalogWatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CB08D46B34765457E1A82 /* MJAnalogWatchView.m */; settings = {ASSET_TAGS = (); }; };
+		809CB5FF13CE8B6E15EAEC48 /* chrono_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 809CB950AE2DD43B8545295D /* chrono_background.png */; settings = {ASSET_TAGS = (); }; };
+		809CB607A6DE07347526F1A7 /* MJPreferencesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 809CB188E0CC622CE9663C78 /* MJPreferencesViewController.h */; settings = {ASSET_TAGS = (); }; };
+		809CB6ECC9EFEB429250ACA4 /* MJModels.h in Headers */ = {isa = PBXBuildFile; fileRef = 809CB8C91D45D402D4542B94 /* MJModels.h */; settings = {ASSET_TAGS = (); }; };
+		809CB8A76E6D128AECB694B2 /* MJModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CB1641DAB639541079D25 /* MJModels.m */; settings = {ASSET_TAGS = (); }; };
+		809CB9074B4CCEC5D7E0280E /* MJColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CB3DA1F066C559E872A89 /* MJColors.m */; settings = {ASSET_TAGS = (); }; };
+		809CBA0A49D0713B108F650C /* MJAnalogUtilityWatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CB396F9CFC710ACEC3066 /* MJAnalogUtilityWatchView.m */; settings = {ASSET_TAGS = (); }; };
+		809CBA5C5F18EFA459D1EA63 /* MJDigitalXLargeWatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CBD82C725F29A9353D84C /* MJDigitalXLargeWatchView.m */; };
+		809CBA6946BF5FFC2819C3AB /* MJAnalogNormalWatchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 809CB59E64306DF27BF3C23E /* MJAnalogNormalWatchView.h */; settings = {ASSET_TAGS = (); }; };
+		809CBA970909EE41BE6A4A30 /* MJAnalogSimpleWatchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 809CB89DC2620D961488DA77 /* MJAnalogSimpleWatchView.h */; settings = {ASSET_TAGS = (); }; };
+		809CBAF5F82F12430DCD1C68 /* MJWatchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 809CB8FAAE4EECF999CB42DA /* MJWatchView.h */; };
+		809CBB363978E877E1E8C31A /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 809CB1AB06D901C0B8431DFD /* Preferences.xib */; settings = {ASSET_TAGS = (); }; };
+		809CBC6259441D9464792E57 /* MJColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 809CBE629BE0BC2F4FDE9DBC /* MJColors.h */; settings = {ASSET_TAGS = (); }; };
+		809CBCA04A8D0B8D8709C5DB /* NSImage+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 809CBFF735B8EACDA433786E /* NSImage+Utils.h */; settings = {ASSET_TAGS = (); }; };
+		809CBCB7E8EA37A06ED4504D /* MJColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 809CB18EF654372FC575F7B3 /* MJColor.h */; settings = {ASSET_TAGS = (); }; };
+		809CBD8B27DBAE4CBEF1C9C9 /* MJWatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CB6C6AE4489DC6CEF98A7 /* MJWatchView.m */; };
+		809CBEA03FD798B07E004461 /* MJModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CB411F442A7DED65AA9AD /* MJModel.m */; settings = {ASSET_TAGS = (); }; };
+		809CBF657FF9548767B30C68 /* MJModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 809CBD8DA13E4A749E4E8042 /* MJModel.h */; settings = {ASSET_TAGS = (); }; };
+		809CBF6A5F9902DFC99CB221 /* MJPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CB57724DE4815E54BD85F /* MJPreferencesViewController.m */; settings = {ASSET_TAGS = (); }; };
+		AF91B9CC6240851BACC0841F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8FD7FBB64ABA6CD4111BA6 /* libPods.a */; };
+		C72C4E641BD6B1F90018A830 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C72C4E631BD6B1F90018A830 /* ScreenSaver.framework */; };
+		C760762C1BCFFCB200ED2870 /* MJScreenSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = C760762B1BCFFCB200ED2870 /* MJScreenSaverView.h */; };
+		C760762E1BCFFCB200ED2870 /* MJScreenSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = C760762D1BCFFCB200ED2870 /* MJScreenSaverView.m */; };
+		C760764E1BCFFD1500ED2870 /* chrono_centerscrew.png in Resources */ = {isa = PBXBuildFile; fileRef = C76076371BCFFD1500ED2870 /* chrono_centerscrew.png */; settings = {ASSET_TAGS = (); }; };
+		C760764F1BCFFD1500ED2870 /* chrono_hourhand.png in Resources */ = {isa = PBXBuildFile; fileRef = C76076381BCFFD1500ED2870 /* chrono_hourhand.png */; settings = {ASSET_TAGS = (); }; };
+		C76076501BCFFD1500ED2870 /* chrono_minutehand.png in Resources */ = {isa = PBXBuildFile; fileRef = C76076391BCFFD1500ED2870 /* chrono_minutehand.png */; settings = {ASSET_TAGS = (); }; };
+		C76076511BCFFD1500ED2870 /* chrono_secondhand.png in Resources */ = {isa = PBXBuildFile; fileRef = C760763A1BCFFD1500ED2870 /* chrono_secondhand.png */; settings = {ASSET_TAGS = (); }; };
+		C76076521BCFFD1500ED2870 /* chrono_small_secondhand_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = C760763B1BCFFD1500ED2870 /* chrono_small_secondhand_orange.png */; settings = {ASSET_TAGS = (); }; };
+		C76076531BCFFD1500ED2870 /* chrono_small_secondhand.png in Resources */ = {isa = PBXBuildFile; fileRef = C760763C1BCFFD1500ED2870 /* chrono_small_secondhand.png */; settings = {ASSET_TAGS = (); }; };
+		C76076541BCFFD1500ED2870 /* normal_background.png in Resources */ = {isa = PBXBuildFile; fileRef = C760763D1BCFFD1500ED2870 /* normal_background.png */; settings = {ASSET_TAGS = (); }; };
+		C76076551BCFFD1500ED2870 /* normal_centerscrew.png in Resources */ = {isa = PBXBuildFile; fileRef = C760763E1BCFFD1500ED2870 /* normal_centerscrew.png */; settings = {ASSET_TAGS = (); }; };
+		C76076561BCFFD1500ED2870 /* normal_hourhand.png in Resources */ = {isa = PBXBuildFile; fileRef = C760763F1BCFFD1500ED2870 /* normal_hourhand.png */; settings = {ASSET_TAGS = (); }; };
+		C76076571BCFFD1500ED2870 /* normal_minutehand.png in Resources */ = {isa = PBXBuildFile; fileRef = C76076401BCFFD1500ED2870 /* normal_minutehand.png */; settings = {ASSET_TAGS = (); }; };
+		C76076581BCFFD1500ED2870 /* normal_secondhand.png in Resources */ = {isa = PBXBuildFile; fileRef = C76076411BCFFD1500ED2870 /* normal_secondhand.png */; settings = {ASSET_TAGS = (); }; };
+		C76076591BCFFD1500ED2870 /* SF-UI-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C76076421BCFFD1500ED2870 /* SF-UI-Display-Regular.otf */; settings = {ASSET_TAGS = (); }; };
+		C760765A1BCFFD1500ED2870 /* simple_background.png in Resources */ = {isa = PBXBuildFile; fileRef = C76076431BCFFD1500ED2870 /* simple_background.png */; settings = {ASSET_TAGS = (); }; };
+		C760765B1BCFFD1500ED2870 /* simple_centerscrew.png in Resources */ = {isa = PBXBuildFile; fileRef = C76076441BCFFD1500ED2870 /* simple_centerscrew.png */; settings = {ASSET_TAGS = (); }; };
+		C760765C1BCFFD1500ED2870 /* simple_hourhand.png in Resources */ = {isa = PBXBuildFile; fileRef = C76076451BCFFD1500ED2870 /* simple_hourhand.png */; settings = {ASSET_TAGS = (); }; };
+		C760765D1BCFFD1500ED2870 /* simple_minutehand.png in Resources */ = {isa = PBXBuildFile; fileRef = C76076461BCFFD1500ED2870 /* simple_minutehand.png */; settings = {ASSET_TAGS = (); }; };
+		C760765E1BCFFD1500ED2870 /* simple_secondhand.png in Resources */ = {isa = PBXBuildFile; fileRef = C76076471BCFFD1500ED2870 /* simple_secondhand.png */; settings = {ASSET_TAGS = (); }; };
+		C760765F1BCFFD1500ED2870 /* utility_background.png in Resources */ = {isa = PBXBuildFile; fileRef = C76076481BCFFD1500ED2870 /* utility_background.png */; settings = {ASSET_TAGS = (); }; };
+		C76076601BCFFD1500ED2870 /* utility_centerscrew.png in Resources */ = {isa = PBXBuildFile; fileRef = C76076491BCFFD1500ED2870 /* utility_centerscrew.png */; settings = {ASSET_TAGS = (); }; };
+		C76076611BCFFD1500ED2870 /* utility_hourhand.png in Resources */ = {isa = PBXBuildFile; fileRef = C760764A1BCFFD1500ED2870 /* utility_hourhand.png */; settings = {ASSET_TAGS = (); }; };
+		C76076621BCFFD1500ED2870 /* utility_minutehand.png in Resources */ = {isa = PBXBuildFile; fileRef = C760764B1BCFFD1500ED2870 /* utility_minutehand.png */; settings = {ASSET_TAGS = (); }; };
+		C76076631BCFFD1500ED2870 /* utility_secondhand.png in Resources */ = {isa = PBXBuildFile; fileRef = C760764C1BCFFD1500ED2870 /* utility_secondhand.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		529BD954D4D98194135C8C52 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5D8FD7FBB64ABA6CD4111BA6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		809CB08D46B34765457E1A82 /* MJAnalogWatchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJAnalogWatchView.m; sourceTree = "<group>"; };
+		809CB1641DAB639541079D25 /* MJModels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJModels.m; sourceTree = "<group>"; };
+		809CB188E0CC622CE9663C78 /* MJPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPreferencesViewController.h; sourceTree = "<group>"; };
+		809CB18EF654372FC575F7B3 /* MJColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJColor.h; sourceTree = "<group>"; };
+		809CB1AB06D901C0B8431DFD /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		809CB1EAE8FAC714BC19252E /* NSImage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+Utils.m"; sourceTree = "<group>"; };
+		809CB22D86ECB0BA4A64BE45 /* MJDigitalXLargeWatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDigitalXLargeWatchView.h; sourceTree = "<group>"; };
+		809CB2C7F0B343249F40CDA3 /* MJImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJImageLoader.m; sourceTree = "<group>"; };
+		809CB396F9CFC710ACEC3066 /* MJAnalogUtilityWatchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJAnalogUtilityWatchView.m; sourceTree = "<group>"; };
+		809CB3DA1F066C559E872A89 /* MJColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJColors.m; sourceTree = "<group>"; };
+		809CB411F442A7DED65AA9AD /* MJModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJModel.m; sourceTree = "<group>"; };
+		809CB57724DE4815E54BD85F /* MJPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPreferencesViewController.m; sourceTree = "<group>"; };
+		809CB59E64306DF27BF3C23E /* MJAnalogNormalWatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJAnalogNormalWatchView.h; sourceTree = "<group>"; };
+		809CB6014885209F003A236E /* MJPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPreferences.h; sourceTree = "<group>"; };
+		809CB67F09507E99A74C7D1E /* MJColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJColor.m; sourceTree = "<group>"; };
+		809CB6B0E9D30925C0079076 /* MJAnalogUtilityWatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJAnalogUtilityWatchView.h; sourceTree = "<group>"; };
+		809CB6C6AE4489DC6CEF98A7 /* MJWatchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJWatchView.m; sourceTree = "<group>"; };
+		809CB77B4AA7E892738102AA /* MJPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPreferences.m; sourceTree = "<group>"; };
+		809CB7D1759DD755DA9B9AEF /* MJImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJImageLoader.h; sourceTree = "<group>"; };
+		809CB82EB8D72F054AF1F73A /* MJAnalogSimpleWatchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJAnalogSimpleWatchView.m; sourceTree = "<group>"; };
+		809CB89DC2620D961488DA77 /* MJAnalogSimpleWatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJAnalogSimpleWatchView.h; sourceTree = "<group>"; };
+		809CB8C91D45D402D4542B94 /* MJModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJModels.h; sourceTree = "<group>"; };
+		809CB8FAAE4EECF999CB42DA /* MJWatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJWatchView.h; sourceTree = "<group>"; };
+		809CB950AE2DD43B8545295D /* chrono_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chrono_background.png; sourceTree = "<group>"; };
+		809CBC3A6690274C31325A33 /* MJAnalogChronoWatchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJAnalogChronoWatchView.m; sourceTree = "<group>"; };
+		809CBD82C725F29A9353D84C /* MJDigitalXLargeWatchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDigitalXLargeWatchView.m; sourceTree = "<group>"; };
+		809CBD8DA13E4A749E4E8042 /* MJModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJModel.h; sourceTree = "<group>"; };
+		809CBE56A38308A94FF607DD /* MJAnalogNormalWatchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJAnalogNormalWatchView.m; sourceTree = "<group>"; };
+		809CBE629BE0BC2F4FDE9DBC /* MJColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJColors.h; sourceTree = "<group>"; };
+		809CBF5CF87460963C993A3A /* MJAnalogChronoWatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJAnalogChronoWatchView.h; sourceTree = "<group>"; };
+		809CBFA83CF87AB74AA34C19 /* MJAnalogWatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJAnalogWatchView.h; sourceTree = "<group>"; };
+		809CBFF735B8EACDA433786E /* NSImage+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+Utils.h"; sourceTree = "<group>"; };
+		A97A2586BA1827BFBD8E891E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C72C4E631BD6B1F90018A830 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		C76076281BCFFCB200ED2870 /* WatchScreensaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchScreensaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		C760762B1BCFFCB200ED2870 /* MJScreenSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJScreenSaverView.h; sourceTree = "<group>"; };
+		C760762D1BCFFCB200ED2870 /* MJScreenSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJScreenSaverView.m; sourceTree = "<group>"; };
+		C760762F1BCFFCB200ED2870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C76076371BCFFD1500ED2870 /* chrono_centerscrew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chrono_centerscrew.png; sourceTree = "<group>"; };
+		C76076381BCFFD1500ED2870 /* chrono_hourhand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chrono_hourhand.png; sourceTree = "<group>"; };
+		C76076391BCFFD1500ED2870 /* chrono_minutehand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chrono_minutehand.png; sourceTree = "<group>"; };
+		C760763A1BCFFD1500ED2870 /* chrono_secondhand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chrono_secondhand.png; sourceTree = "<group>"; };
+		C760763B1BCFFD1500ED2870 /* chrono_small_secondhand_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chrono_small_secondhand_orange.png; sourceTree = "<group>"; };
+		C760763C1BCFFD1500ED2870 /* chrono_small_secondhand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chrono_small_secondhand.png; sourceTree = "<group>"; };
+		C760763D1BCFFD1500ED2870 /* normal_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal_background.png; sourceTree = "<group>"; };
+		C760763E1BCFFD1500ED2870 /* normal_centerscrew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal_centerscrew.png; sourceTree = "<group>"; };
+		C760763F1BCFFD1500ED2870 /* normal_hourhand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal_hourhand.png; sourceTree = "<group>"; };
+		C76076401BCFFD1500ED2870 /* normal_minutehand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal_minutehand.png; sourceTree = "<group>"; };
+		C76076411BCFFD1500ED2870 /* normal_secondhand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal_secondhand.png; sourceTree = "<group>"; };
+		C76076421BCFFD1500ED2870 /* SF-UI-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Regular.otf"; sourceTree = "<group>"; };
+		C76076431BCFFD1500ED2870 /* simple_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simple_background.png; sourceTree = "<group>"; };
+		C76076441BCFFD1500ED2870 /* simple_centerscrew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simple_centerscrew.png; sourceTree = "<group>"; };
+		C76076451BCFFD1500ED2870 /* simple_hourhand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simple_hourhand.png; sourceTree = "<group>"; };
+		C76076461BCFFD1500ED2870 /* simple_minutehand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simple_minutehand.png; sourceTree = "<group>"; };
+		C76076471BCFFD1500ED2870 /* simple_secondhand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simple_secondhand.png; sourceTree = "<group>"; };
+		C76076481BCFFD1500ED2870 /* utility_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = utility_background.png; sourceTree = "<group>"; };
+		C76076491BCFFD1500ED2870 /* utility_centerscrew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = utility_centerscrew.png; sourceTree = "<group>"; };
+		C760764A1BCFFD1500ED2870 /* utility_hourhand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = utility_hourhand.png; sourceTree = "<group>"; };
+		C760764B1BCFFD1500ED2870 /* utility_minutehand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = utility_minutehand.png; sourceTree = "<group>"; };
+		C760764C1BCFFD1500ED2870 /* utility_secondhand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = utility_secondhand.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C76076241BCFFCB200ED2870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C72C4E641BD6B1F90018A830 /* ScreenSaver.framework in Frameworks */,
+				AF91B9CC6240851BACC0841F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D6DEFC9A8A5490CEE418B16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C72C4E631BD6B1F90018A830 /* ScreenSaver.framework */,
+				5D8FD7FBB64ABA6CD4111BA6 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		809CB42C796BEF9DD740277F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				809CB1EAE8FAC714BC19252E /* NSImage+Utils.m */,
+				809CBFF735B8EACDA433786E /* NSImage+Utils.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		809CB54F2836E7602650083A /* Watches */ = {
+			isa = PBXGroup;
+			children = (
+				809CBF5CF87460963C993A3A /* MJAnalogChronoWatchView.h */,
+				809CBE56A38308A94FF607DD /* MJAnalogNormalWatchView.m */,
+				809CB82EB8D72F054AF1F73A /* MJAnalogSimpleWatchView.m */,
+				809CBFA83CF87AB74AA34C19 /* MJAnalogWatchView.h */,
+				809CB59E64306DF27BF3C23E /* MJAnalogNormalWatchView.h */,
+				809CB08D46B34765457E1A82 /* MJAnalogWatchView.m */,
+				809CB6B0E9D30925C0079076 /* MJAnalogUtilityWatchView.h */,
+				809CBC3A6690274C31325A33 /* MJAnalogChronoWatchView.m */,
+				809CB89DC2620D961488DA77 /* MJAnalogSimpleWatchView.h */,
+				809CB396F9CFC710ACEC3066 /* MJAnalogUtilityWatchView.m */,
+				809CB6C6AE4489DC6CEF98A7 /* MJWatchView.m */,
+				809CB8FAAE4EECF999CB42DA /* MJWatchView.h */,
+				809CBD82C725F29A9353D84C /* MJDigitalXLargeWatchView.m */,
+				809CB22D86ECB0BA4A64BE45 /* MJDigitalXLargeWatchView.h */,
+			);
+			path = Watches;
+			sourceTree = "<group>";
+		};
+		809CB9BA1DAF2580FF9AC053 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				809CB411F442A7DED65AA9AD /* MJModel.m */,
+				809CBE629BE0BC2F4FDE9DBC /* MJColors.h */,
+				809CB1641DAB639541079D25 /* MJModels.m */,
+				809CB3DA1F066C559E872A89 /* MJColors.m */,
+				809CB18EF654372FC575F7B3 /* MJColor.h */,
+				809CBD8DA13E4A749E4E8042 /* MJModel.h */,
+				809CB67F09507E99A74C7D1E /* MJColor.m */,
+				809CB8C91D45D402D4542B94 /* MJModels.h */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		809CBC1E922BCA2B80897A6A /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				809CB57724DE4815E54BD85F /* MJPreferencesViewController.m */,
+				809CB188E0CC622CE9663C78 /* MJPreferencesViewController.h */,
+				809CB1AB06D901C0B8431DFD /* Preferences.xib */,
+				809CB6014885209F003A236E /* MJPreferences.h */,
+				809CB77B4AA7E892738102AA /* MJPreferences.m */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		B4BD7698A81C1DD32CB1551B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				529BD954D4D98194135C8C52 /* Pods.debug.xcconfig */,
+				A97A2586BA1827BFBD8E891E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C760761E1BCFFCB200ED2870 = {
+			isa = PBXGroup;
+			children = (
+				C760762A1BCFFCB200ED2870 /* WatchScreensaver */,
+				C76076291BCFFCB200ED2870 /* Products */,
+				B4BD7698A81C1DD32CB1551B /* Pods */,
+				1D6DEFC9A8A5490CEE418B16 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C76076291BCFFCB200ED2870 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C76076281BCFFCB200ED2870 /* WatchScreensaver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C760762A1BCFFCB200ED2870 /* WatchScreensaver */ = {
+			isa = PBXGroup;
+			children = (
+				C76076351BCFFCFB00ED2870 /* Resources */,
+				C760762B1BCFFCB200ED2870 /* MJScreenSaverView.h */,
+				C760762D1BCFFCB200ED2870 /* MJScreenSaverView.m */,
+				C760762F1BCFFCB200ED2870 /* Info.plist */,
+				809CB2C7F0B343249F40CDA3 /* MJImageLoader.m */,
+				809CB7D1759DD755DA9B9AEF /* MJImageLoader.h */,
+				809CB54F2836E7602650083A /* Watches */,
+				809CB42C796BEF9DD740277F /* Categories */,
+				809CB9BA1DAF2580FF9AC053 /* Data */,
+				809CBC1E922BCA2B80897A6A /* Preferences */,
+			);
+			path = WatchScreensaver;
+			sourceTree = "<group>";
+		};
+		C76076351BCFFCFB00ED2870 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C76076371BCFFD1500ED2870 /* chrono_centerscrew.png */,
+				C76076381BCFFD1500ED2870 /* chrono_hourhand.png */,
+				C76076391BCFFD1500ED2870 /* chrono_minutehand.png */,
+				C760763A1BCFFD1500ED2870 /* chrono_secondhand.png */,
+				C760763B1BCFFD1500ED2870 /* chrono_small_secondhand_orange.png */,
+				C760763C1BCFFD1500ED2870 /* chrono_small_secondhand.png */,
+				C760763D1BCFFD1500ED2870 /* normal_background.png */,
+				C760763E1BCFFD1500ED2870 /* normal_centerscrew.png */,
+				C760763F1BCFFD1500ED2870 /* normal_hourhand.png */,
+				C76076401BCFFD1500ED2870 /* normal_minutehand.png */,
+				C76076411BCFFD1500ED2870 /* normal_secondhand.png */,
+				C76076421BCFFD1500ED2870 /* SF-UI-Display-Regular.otf */,
+				C76076431BCFFD1500ED2870 /* simple_background.png */,
+				C76076441BCFFD1500ED2870 /* simple_centerscrew.png */,
+				C76076451BCFFD1500ED2870 /* simple_hourhand.png */,
+				C76076461BCFFD1500ED2870 /* simple_minutehand.png */,
+				C76076471BCFFD1500ED2870 /* simple_secondhand.png */,
+				C76076481BCFFD1500ED2870 /* utility_background.png */,
+				C76076491BCFFD1500ED2870 /* utility_centerscrew.png */,
+				C760764A1BCFFD1500ED2870 /* utility_hourhand.png */,
+				C760764B1BCFFD1500ED2870 /* utility_minutehand.png */,
+				C760764C1BCFFD1500ED2870 /* utility_secondhand.png */,
+				809CB950AE2DD43B8545295D /* chrono_background.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C76076251BCFFCB200ED2870 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C760762C1BCFFCB200ED2870 /* MJScreenSaverView.h in Headers */,
+				809CB561C316A8A2C36F8D2A /* MJImageLoader.h in Headers */,
+				809CB3D8AEDD2392A3CD41BF /* MJAnalogChronoWatchView.h in Headers */,
+				809CB43282E6DAD2F1516CB8 /* MJAnalogWatchView.h in Headers */,
+				809CBA6946BF5FFC2819C3AB /* MJAnalogNormalWatchView.h in Headers */,
+				809CB2AC0197D9ACCE553481 /* MJAnalogUtilityWatchView.h in Headers */,
+				809CBA970909EE41BE6A4A30 /* MJAnalogSimpleWatchView.h in Headers */,
+				809CBCA04A8D0B8D8709C5DB /* NSImage+Utils.h in Headers */,
+				809CBAF5F82F12430DCD1C68 /* MJWatchView.h in Headers */,
+				809CB0251116CBA485B9B17C /* MJDigitalXLargeWatchView.h in Headers */,
+				809CBC6259441D9464792E57 /* MJColors.h in Headers */,
+				809CBCB7E8EA37A06ED4504D /* MJColor.h in Headers */,
+				809CBF657FF9548767B30C68 /* MJModel.h in Headers */,
+				809CB6ECC9EFEB429250ACA4 /* MJModels.h in Headers */,
+				809CB607A6DE07347526F1A7 /* MJPreferencesViewController.h in Headers */,
+				809CB2040BE4D184370DE43D /* MJPreferences.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C76076271BCFFCB200ED2870 /* WatchScreensaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C76076321BCFFCB200ED2870 /* Build configuration list for PBXNativeTarget "WatchScreensaver" */;
+			buildPhases = (
+				C67A78A1121E4A7FE654B216 /* Check Pods Manifest.lock */,
+				C76076231BCFFCB200ED2870 /* Sources */,
+				C76076241BCFFCB200ED2870 /* Frameworks */,
+				C76076251BCFFCB200ED2870 /* Headers */,
+				C76076261BCFFCB200ED2870 /* Resources */,
+				C7B32E7ECD0FB5BB9D489ACD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatchScreensaver;
+			productName = WatchScreensaver;
+			productReference = C76076281BCFFCB200ED2870 /* WatchScreensaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C760761F1BCFFCB200ED2870 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Mads Lee Jensen";
+				TargetAttributes = {
+					C76076271BCFFCB200ED2870 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C76076221BCFFCB200ED2870 /* Build configuration list for PBXProject "WatchScreensaver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C760761E1BCFFCB200ED2870;
+			productRefGroup = C76076291BCFFCB200ED2870 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C76076271BCFFCB200ED2870 /* WatchScreensaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C76076261BCFFCB200ED2870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76076541BCFFD1500ED2870 /* normal_background.png in Resources */,
+				C760764E1BCFFD1500ED2870 /* chrono_centerscrew.png in Resources */,
+				C760765B1BCFFD1500ED2870 /* simple_centerscrew.png in Resources */,
+				C76076551BCFFD1500ED2870 /* normal_centerscrew.png in Resources */,
+				C76076501BCFFD1500ED2870 /* chrono_minutehand.png in Resources */,
+				C76076621BCFFD1500ED2870 /* utility_minutehand.png in Resources */,
+				C76076571BCFFD1500ED2870 /* normal_minutehand.png in Resources */,
+				C760765F1BCFFD1500ED2870 /* utility_background.png in Resources */,
+				C76076561BCFFD1500ED2870 /* normal_hourhand.png in Resources */,
+				C760765E1BCFFD1500ED2870 /* simple_secondhand.png in Resources */,
+				C760765C1BCFFD1500ED2870 /* simple_hourhand.png in Resources */,
+				C76076631BCFFD1500ED2870 /* utility_secondhand.png in Resources */,
+				C760765A1BCFFD1500ED2870 /* simple_background.png in Resources */,
+				C76076591BCFFD1500ED2870 /* SF-UI-Display-Regular.otf in Resources */,
+				C76076531BCFFD1500ED2870 /* chrono_small_secondhand.png in Resources */,
+				C76076601BCFFD1500ED2870 /* utility_centerscrew.png in Resources */,
+				C760765D1BCFFD1500ED2870 /* simple_minutehand.png in Resources */,
+				C76076521BCFFD1500ED2870 /* chrono_small_secondhand_orange.png in Resources */,
+				C760764F1BCFFD1500ED2870 /* chrono_hourhand.png in Resources */,
+				C76076611BCFFD1500ED2870 /* utility_hourhand.png in Resources */,
+				C76076511BCFFD1500ED2870 /* chrono_secondhand.png in Resources */,
+				C76076581BCFFD1500ED2870 /* normal_secondhand.png in Resources */,
+				809CB5FF13CE8B6E15EAEC48 /* chrono_background.png in Resources */,
+				809CBB363978E877E1E8C31A /* Preferences.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C67A78A1121E4A7FE654B216 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7B32E7ECD0FB5BB9D489ACD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C76076231BCFFCB200ED2870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C760762E1BCFFCB200ED2870 /* MJScreenSaverView.m in Sources */,
+				809CB1358EC600B045B1B516 /* MJImageLoader.m in Sources */,
+				809CB2B07AA6B7CC79C8BAF5 /* MJAnalogNormalWatchView.m in Sources */,
+				809CB31B01D7A15696EC07F1 /* MJAnalogSimpleWatchView.m in Sources */,
+				809CB5B7FB05CA22379CC81B /* MJAnalogWatchView.m in Sources */,
+				809CB4908E526900810BCBE9 /* MJAnalogChronoWatchView.m in Sources */,
+				809CBA0A49D0713B108F650C /* MJAnalogUtilityWatchView.m in Sources */,
+				809CB1B20271FA3D91608483 /* NSImage+Utils.m in Sources */,
+				809CBD8B27DBAE4CBEF1C9C9 /* MJWatchView.m in Sources */,
+				809CBA5C5F18EFA459D1EA63 /* MJDigitalXLargeWatchView.m in Sources */,
+				809CBEA03FD798B07E004461 /* MJModel.m in Sources */,
+				809CB8A76E6D128AECB694B2 /* MJModels.m in Sources */,
+				809CB9074B4CCEC5D7E0280E /* MJColors.m in Sources */,
+				809CB2360E27EDBAE9699F27 /* MJColor.m in Sources */,
+				809CBF6A5F9902DFC99CB221 /* MJPreferencesViewController.m in Sources */,
+				809CB1E005C9B18D28B5D6EF /* MJPreferences.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C76076301BCFFCB200ED2870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C76076311BCFFCB200ED2870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C76076331BCFFCB200ED2870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 529BD954D4D98194135C8C52 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WatchScreensaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.mads-lee.WatchScreensaver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		C76076341BCFFCB200ED2870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A97A2586BA1827BFBD8E891E /* Pods.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WatchScreensaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.mads-lee.WatchScreensaver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C76076221BCFFCB200ED2870 /* Build configuration list for PBXProject "WatchScreensaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76076301BCFFCB200ED2870 /* Debug */,
+				C76076311BCFFCB200ED2870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C76076321BCFFCB200ED2870 /* Build configuration list for PBXNativeTarget "WatchScreensaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76076331BCFFCB200ED2870 /* Debug */,
+				C76076341BCFFCB200ED2870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C760761F1BCFFCB200ED2870 /* Project object */;
+}
