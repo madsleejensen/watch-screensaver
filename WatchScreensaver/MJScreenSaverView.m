@@ -30,12 +30,20 @@
 }
 
 - (void)commonInit {
+    [self setupFonts];
+
     self.animationTimeInterval = 1/30.0;
     self.wantsLayer = YES;
 
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onPreferencesChanged:) name:@"watch.preferences.changed" object:nil];
 
     [self onPreferencesChanged:nil];
+}
+
+// we need to load fonts manually: http://stackoverflow.com/questions/10141655/embedding-a-custom-font-in-a-screensaver
+- (void)setupFonts {
+    NSURL *url = [[NSBundle bundleForClass:[self class]] URLForResource:@"SF-UI-Display-Regular" withExtension:@"otf"];
+    CTFontManagerRegisterFontsForURL((__bridge CFURLRef) url, kCTFontManagerScopeProcess, nil);
 }
 
 - (void)onPreferencesChanged:(NSNotification *)notification {
