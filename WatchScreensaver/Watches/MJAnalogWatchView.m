@@ -99,7 +99,7 @@
 }
 
 - (void)onTimeChanged:(double)hour minute:(double)minute second:(double)second {
-    double hourAngle = 360.0f * (hour / 60.0f);
+    double hourAngle = 360.0f * (hour / 12.0f);
     double minuteAngle = 360.0f * (minute / 60.0f);
     double secondAngle = 360.0f * (second / 60.0f);
 
