@@ -41,6 +41,8 @@
 		809CBF6A5F9902DFC99CB221 /* MJPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CB57724DE4815E54BD85F /* MJPreferencesViewController.m */; };
 		AF91B9CC6240851BACC0841F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8FD7FBB64ABA6CD4111BA6 /* libPods.a */; };
 		C72C4E641BD6B1F90018A830 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C72C4E631BD6B1F90018A830 /* ScreenSaver.framework */; };
+		C74C30AF1BFA376200EE7457 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = C74C30AD1BFA376200EE7457 /* thumbnail.png */; };
+		C74C30B01BFA376200EE7457 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C74C30AE1BFA376200EE7457 /* thumbnail@2x.png */; };
 		C760762C1BCFFCB200ED2870 /* MJScreenSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = C760762B1BCFFCB200ED2870 /* MJScreenSaverView.h */; };
 		C760762E1BCFFCB200ED2870 /* MJScreenSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = C760762D1BCFFCB200ED2870 /* MJScreenSaverView.m */; };
 		C760764E1BCFFD1500ED2870 /* chrono_centerscrew.png in Resources */ = {isa = PBXBuildFile; fileRef = C76076371BCFFD1500ED2870 /* chrono_centerscrew.png */; };
@@ -104,6 +106,8 @@
 		809CBFF735B8EACDA433786E /* NSImage+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+Utils.h"; sourceTree = "<group>"; };
 		A97A2586BA1827BFBD8E891E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C72C4E631BD6B1F90018A830 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		C74C30AD1BFA376200EE7457 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		C74C30AE1BFA376200EE7457 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
 		C76076281BCFFCB200ED2870 /* WatchScreensaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchScreensaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		C760762B1BCFFCB200ED2870 /* MJScreenSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJScreenSaverView.h; sourceTree = "<group>"; };
 		C760762D1BCFFCB200ED2870 /* MJScreenSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJScreenSaverView.m; sourceTree = "<group>"; };
@@ -244,6 +248,8 @@
 				C76076351BCFFCFB00ED2870 /* Resources */,
 				C760762B1BCFFCB200ED2870 /* MJScreenSaverView.h */,
 				C760762D1BCFFCB200ED2870 /* MJScreenSaverView.m */,
+				C74C30AD1BFA376200EE7457 /* thumbnail.png */,
+				C74C30AE1BFA376200EE7457 /* thumbnail@2x.png */,
 				C760762F1BCFFCB200ED2870 /* Info.plist */,
 				809CB2C7F0B343249F40CDA3 /* MJImageLoader.m */,
 				809CB7D1759DD755DA9B9AEF /* MJImageLoader.h */,
@@ -381,6 +387,7 @@
 				C76076561BCFFD1500ED2870 /* normal_hourhand.png in Resources */,
 				C760765E1BCFFD1500ED2870 /* simple_secondhand.png in Resources */,
 				C760765C1BCFFD1500ED2870 /* simple_hourhand.png in Resources */,
+				C74C30B01BFA376200EE7457 /* thumbnail@2x.png in Resources */,
 				C76076631BCFFD1500ED2870 /* utility_secondhand.png in Resources */,
 				C760765A1BCFFD1500ED2870 /* simple_background.png in Resources */,
 				C76076591BCFFD1500ED2870 /* SF-UI-Display-Regular.otf in Resources */,
@@ -394,6 +401,7 @@
 				C76076581BCFFD1500ED2870 /* normal_secondhand.png in Resources */,
 				809CB5FF13CE8B6E15EAEC48 /* chrono_background.png in Resources */,
 				809CBB363978E877E1E8C31A /* Preferences.xib in Resources */,
+				C74C30AF1BFA376200EE7457 /* thumbnail.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
