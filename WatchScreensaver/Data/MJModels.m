@@ -37,7 +37,7 @@
             [MJModel newModel:@"Chronograph" modelClass:[MJAnalogChronoWatchView class]],
             [MJModel newModel:@"Normal" modelClass:[MJAnalogNormalWatchView class]],
             [MJModel newModel:@"Utility" modelClass:[MJAnalogUtilityWatchView class]],
-            [MJModel newModel:@"X-Large" modelClass:[MJDigitalXLargeWatchView class]],
+            [MJModel newModel:@"X-LARGE" modelClass:[MJDigitalXLargeWatchView class]],
         ];
     }
     

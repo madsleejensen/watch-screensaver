@@ -38,7 +38,7 @@
 
     [self.dateTextField mas_updateConstraints:^(MASConstraintMaker *make) {
         make.centerY.equalTo(self).multipliedBy(0.98f);
-        make.right.equalTo(self).multipliedBy(0.84f);
+        make.right.equalTo(self).multipliedBy(0.80f);
     }];
 }
 
@@ -51,15 +51,15 @@
     self.minuteHandImageView.layer.position = CGPointMake(CGRectGetMidX(self.minuteHandImageView.frame), CGRectGetMidY(self.minuteHandImageView.frame));
     self.minuteHandImageView.layer.anchorPoint = CGPointMake(0.5f, 0.5f);
     
-    CGFloat smallSize = roundf(self.frame.size.width * 0.28f);;
+    CGFloat smallSize = roundf(self.frame.size.width * 0.246f);
 
     self.secondMiniHandImageView.image = [[MJImageLoader imageNamed:@"chrono_small_secondhand"] resizeToSize:CGSizeMake(smallSize, smallSize)];
-    self.secondMiniHandImageView.frame = CGRectMake(roundf((self.frame.size.width - smallSize)/2.0f), roundf(self.frame.size.height * 0.545f), smallSize, smallSize);
+    self.secondMiniHandImageView.frame = CGRectMake(roundf((self.frame.size.width - smallSize)/2.0f), roundf(self.frame.size.height * 0.532f), smallSize, smallSize);
     self.secondMiniHandImageView.layer.position = CGPointMake(roundf(CGRectGetMidX(self.secondMiniHandImageView.frame)), roundf(CGRectGetMidY(self.secondMiniHandImageView.frame)));
     self.secondMiniHandImageView.layer.anchorPoint = CGPointMake(0.5f, 0.5f);
 
     self.miniHandImageView.image = [[MJImageLoader imageNamed:@"chrono_small_secondhand_orange"] resizeToSize:CGSizeMake(smallSize, smallSize) tint:self.primaryColor];
-    self.miniHandImageView.frame = CGRectMake(roundf((self.frame.size.width - smallSize)/2.0f), roundf(self.frame.size.height * 0.175f), smallSize, smallSize);
+    self.miniHandImageView.frame = CGRectMake(roundf((self.frame.size.width - smallSize)/2.0f), roundf(self.frame.size.height * 0.22f), smallSize, smallSize);
     self.miniHandImageView.layer.position = CGPointMake(roundf(CGRectGetMidX(self.miniHandImageView.frame)), roundf(CGRectGetMidY(self.miniHandImageView.frame)));
     self.miniHandImageView.layer.anchorPoint = CGPointMake(0.5f, 0.5f);
 

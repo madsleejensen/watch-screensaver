@@ -30,8 +30,8 @@
     [super setupConstraints];
 
     [self.dateLabel mas_updateConstraints:^(MASConstraintMaker *make) {
-        make.centerY.equalTo(self);
-        make.right.equalTo(self).multipliedBy(0.8f);
+        make.centerY.equalTo(self).multipliedBy(0.99f);
+        make.right.equalTo(self).multipliedBy(0.76f);
     }];
 }
 

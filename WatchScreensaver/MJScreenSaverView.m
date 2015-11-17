@@ -69,10 +69,15 @@
             make.edges.equalTo(self);
         }
         else {
+            CGFloat size = roundf(self.frame.size.width * 0.26f);
+
             make.centerX.equalTo(self);
             make.centerY.equalTo(self);
-            make.width.equalTo(self.mas_width).multipliedBy(0.25f);
-            make.height.equalTo(view.mas_width);
+            make.width.equalTo(@(size));
+            make.height.equalTo(@(size));
+
+//            make.width.equalTo(self.mas_width).multipliedBy(0.25f);
+//            make.height.equalTo(view.mas_width);
         }
     }];
 
