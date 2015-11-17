@@ -17,13 +17,13 @@
     self.backgroundImageView = [[NSImageView alloc] init];
     [self addSubview:self.backgroundImageView];
 
-    self.minuteHandImageView = [[NSImageView alloc] init];
-    self.minuteHandImageView.wantsLayer = YES;
-    [self addSubview:self.minuteHandImageView];
-
     self.hourHandImageView = [[NSImageView alloc] init];
     self.hourHandImageView.wantsLayer = YES;
     [self addSubview:self.hourHandImageView];
+
+    self.minuteHandImageView = [[NSImageView alloc] init];
+    self.minuteHandImageView.wantsLayer = YES;
+    [self addSubview:self.minuteHandImageView];
 
     self.secondHandImageView = [[NSImageView alloc] init];
     self.secondHandImageView.wantsLayer = YES;

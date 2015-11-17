@@ -24,5 +24,10 @@
 	<string>Copyright © 2015 Mads Lee Jensen. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
 	<string>MJScreenSaverView</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+	  <key>NSAllowsArbitraryLoads</key>
+		  <true/>
+	</dict>
 </dict>
 </plist>

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		809CB0251116CBA485B9B17C /* MJDigitalXLargeWatchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 809CB22D86ECB0BA4A64BE45 /* MJDigitalXLargeWatchView.h */; };
 		809CB1358EC600B045B1B516 /* MJImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CB2C7F0B343249F40CDA3 /* MJImageLoader.m */; };
+		809CB151D91AB028B9ABACBF /* update_available.png in Resources */ = {isa = PBXBuildFile; fileRef = 809CB214D804064105EA7CB4 /* update_available.png */; };
 		809CB1B20271FA3D91608483 /* NSImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CB1EAE8FAC714BC19252E /* NSImage+Utils.m */; };
 		809CB1E005C9B18D28B5D6EF /* MJPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CB77B4AA7E892738102AA /* MJPreferences.m */; };
 		809CB2040BE4D184370DE43D /* MJPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = 809CB6014885209F003A236E /* MJPreferences.h */; };
@@ -78,6 +79,7 @@
 		809CB18EF654372FC575F7B3 /* MJColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJColor.h; sourceTree = "<group>"; };
 		809CB1AB06D901C0B8431DFD /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
 		809CB1EAE8FAC714BC19252E /* NSImage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+Utils.m"; sourceTree = "<group>"; };
+		809CB214D804064105EA7CB4 /* update_available.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = update_available.png; sourceTree = "<group>"; };
 		809CB22D86ECB0BA4A64BE45 /* MJDigitalXLargeWatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDigitalXLargeWatchView.h; sourceTree = "<group>"; };
 		809CB2C7F0B343249F40CDA3 /* MJImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJImageLoader.m; sourceTree = "<group>"; };
 		809CB396F9CFC710ACEC3066 /* MJAnalogUtilityWatchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJAnalogUtilityWatchView.m; sourceTree = "<group>"; };
@@ -287,6 +289,7 @@
 				C760764B1BCFFD1500ED2870 /* utility_minutehand.png */,
 				C760764C1BCFFD1500ED2870 /* utility_secondhand.png */,
 				809CB950AE2DD43B8545295D /* chrono_background.png */,
+				809CB214D804064105EA7CB4 /* update_available.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 				809CB5FF13CE8B6E15EAEC48 /* chrono_background.png in Resources */,
 				809CBB363978E877E1E8C31A /* Preferences.xib in Resources */,
 				C74C30AF1BFA376200EE7457 /* thumbnail.png in Resources */,
+				809CB151D91AB028B9ABACBF /* update_available.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
