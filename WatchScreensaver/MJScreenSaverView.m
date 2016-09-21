@@ -18,7 +18,7 @@
 #import "MJImageLoader.h"
 #import "AFHTTPRequestOperationManager.h"
 
-#define SCREENSAVER_VERSION 1
+#define SCREENSAVER_VERSION 2
 
 @implementation MJScreenSaverView {
     MJPreferencesViewController *preferencesViewController;

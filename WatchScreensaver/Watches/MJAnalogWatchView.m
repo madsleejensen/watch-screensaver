@@ -103,10 +103,17 @@
     double minuteAngle = 360.0f * (minute / 60.0f);
     double secondAngle = 360.0f * (second / 60.0f);
 
+    self.hourHandImageView.layer.position = CGPointMake(CGRectGetMidX(self.hourHandImageView.frame), CGRectGetMidY(self.hourHandImageView.frame));
+    self.hourHandImageView.layer.anchorPoint = CGPointMake(0.5f, 0.5f);
     self.hourHandImageView.layer.transform = CATransform3DMakeRotation(DEGREES_TO_RADIANS(hourAngle), 0, 0, 1.0f);
+    
+    self.minuteHandImageView.layer.position = CGPointMake(CGRectGetMidX(self.minuteHandImageView.frame), CGRectGetMidY(self.minuteHandImageView.frame));
+    self.minuteHandImageView.layer.anchorPoint = CGPointMake(0.5f, 0.5f);
     self.minuteHandImageView.layer.transform = CATransform3DMakeRotation(DEGREES_TO_RADIANS(minuteAngle), 0, 0, 1.0f);
+    
+    self.secondHandImageView.layer.position = CGPointMake(CGRectGetMidX(self.secondHandImageView.frame), CGRectGetMidY(self.secondHandImageView.frame));
+    self.secondHandImageView.layer.anchorPoint = CGPointMake(0.5f, 0.5f);
     self.secondHandImageView.layer.transform = CATransform3DMakeRotation(DEGREES_TO_RADIANS(secondAngle), 0.0f, 0.0f, 1.0f);
-//    _secondHandImageLayer.transform = CATransform3DMakeRotation(DEGREES_TO_RADIANS(secondAngle), 0.0f, 0.0f, 1.0f);
 }
 
 - (NSString *)prefix {
