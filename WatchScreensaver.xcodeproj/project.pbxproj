@@ -40,7 +40,6 @@
 		809CBEA03FD798B07E004461 /* MJModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CB411F442A7DED65AA9AD /* MJModel.m */; };
 		809CBF657FF9548767B30C68 /* MJModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 809CBD8DA13E4A749E4E8042 /* MJModel.h */; };
 		809CBF6A5F9902DFC99CB221 /* MJPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CB57724DE4815E54BD85F /* MJPreferencesViewController.m */; };
-		AF91B9CC6240851BACC0841F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8FD7FBB64ABA6CD4111BA6 /* libPods.a */; };
 		C72C4E641BD6B1F90018A830 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C72C4E631BD6B1F90018A830 /* ScreenSaver.framework */; };
 		C74C30AF1BFA376200EE7457 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = C74C30AD1BFA376200EE7457 /* thumbnail.png */; };
 		C74C30B01BFA376200EE7457 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C74C30AE1BFA376200EE7457 /* thumbnail@2x.png */; };
@@ -68,11 +67,12 @@
 		C76076611BCFFD1500ED2870 /* utility_hourhand.png in Resources */ = {isa = PBXBuildFile; fileRef = C760764A1BCFFD1500ED2870 /* utility_hourhand.png */; };
 		C76076621BCFFD1500ED2870 /* utility_minutehand.png in Resources */ = {isa = PBXBuildFile; fileRef = C760764B1BCFFD1500ED2870 /* utility_minutehand.png */; };
 		C76076631BCFFD1500ED2870 /* utility_secondhand.png in Resources */ = {isa = PBXBuildFile; fileRef = C760764C1BCFFD1500ED2870 /* utility_secondhand.png */; };
+		F0FB5445A5C840B42BE5EE2B /* libPods-WatchScreensaver.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E68C859599818EE3741677DA /* libPods-WatchScreensaver.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		529BD954D4D98194135C8C52 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		5D8FD7FBB64ABA6CD4111BA6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E2364ED2D267F7F9F05CFBA /* Pods-WatchScreensaver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchScreensaver.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatchScreensaver/Pods-WatchScreensaver.release.xcconfig"; sourceTree = "<group>"; };
+		63EA899E3720947A178DB0A5 /* Pods-WatchScreensaver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchScreensaver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatchScreensaver/Pods-WatchScreensaver.debug.xcconfig"; sourceTree = "<group>"; };
 		809CB08D46B34765457E1A82 /* MJAnalogWatchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJAnalogWatchView.m; sourceTree = "<group>"; };
 		809CB1641DAB639541079D25 /* MJModels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJModels.m; sourceTree = "<group>"; };
 		809CB188E0CC622CE9663C78 /* MJPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPreferencesViewController.h; sourceTree = "<group>"; };
@@ -106,7 +106,6 @@
 		809CBF5CF87460963C993A3A /* MJAnalogChronoWatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJAnalogChronoWatchView.h; sourceTree = "<group>"; };
 		809CBFA83CF87AB74AA34C19 /* MJAnalogWatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJAnalogWatchView.h; sourceTree = "<group>"; };
 		809CBFF735B8EACDA433786E /* NSImage+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+Utils.h"; sourceTree = "<group>"; };
-		A97A2586BA1827BFBD8E891E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C72C4E631BD6B1F90018A830 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
 		C74C30AD1BFA376200EE7457 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
 		C74C30AE1BFA376200EE7457 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
@@ -136,6 +135,7 @@
 		C760764A1BCFFD1500ED2870 /* utility_hourhand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = utility_hourhand.png; sourceTree = "<group>"; };
 		C760764B1BCFFD1500ED2870 /* utility_minutehand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = utility_minutehand.png; sourceTree = "<group>"; };
 		C760764C1BCFFD1500ED2870 /* utility_secondhand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = utility_secondhand.png; sourceTree = "<group>"; };
+		E68C859599818EE3741677DA /* libPods-WatchScreensaver.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WatchScreensaver.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,7 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C72C4E641BD6B1F90018A830 /* ScreenSaver.framework in Frameworks */,
-				AF91B9CC6240851BACC0841F /* libPods.a in Frameworks */,
+				F0FB5445A5C840B42BE5EE2B /* libPods-WatchScreensaver.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				C72C4E631BD6B1F90018A830 /* ScreenSaver.framework */,
-				5D8FD7FBB64ABA6CD4111BA6 /* libPods.a */,
+				E68C859599818EE3741677DA /* libPods-WatchScreensaver.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -217,11 +217,11 @@
 			path = Preferences;
 			sourceTree = "<group>";
 		};
-		B4BD7698A81C1DD32CB1551B /* Pods */ = {
+		AA43EEE1C72DEDA89B7BC1CB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				529BD954D4D98194135C8C52 /* Pods.debug.xcconfig */,
-				A97A2586BA1827BFBD8E891E /* Pods.release.xcconfig */,
+				63EA899E3720947A178DB0A5 /* Pods-WatchScreensaver.debug.xcconfig */,
+				1E2364ED2D267F7F9F05CFBA /* Pods-WatchScreensaver.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -231,8 +231,8 @@
 			children = (
 				C760762A1BCFFCB200ED2870 /* WatchScreensaver */,
 				C76076291BCFFCB200ED2870 /* Products */,
-				B4BD7698A81C1DD32CB1551B /* Pods */,
 				1D6DEFC9A8A5490CEE418B16 /* Frameworks */,
+				AA43EEE1C72DEDA89B7BC1CB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -327,12 +327,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C76076321BCFFCB200ED2870 /* Build configuration list for PBXNativeTarget "WatchScreensaver" */;
 			buildPhases = (
-				C67A78A1121E4A7FE654B216 /* Check Pods Manifest.lock */,
+				0A93093BD8DC3F779155D46D /* 📦 Check Pods Manifest.lock */,
 				C76076231BCFFCB200ED2870 /* Sources */,
 				C76076241BCFFCB200ED2870 /* Frameworks */,
 				C76076251BCFFCB200ED2870 /* Headers */,
 				C76076261BCFFCB200ED2870 /* Resources */,
-				C7B32E7ECD0FB5BB9D489ACD /* Copy Pods Resources */,
+				402FEC90F21FFD2C8F5299C3 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -412,14 +412,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C67A78A1121E4A7FE654B216 /* Check Pods Manifest.lock */ = {
+		0A93093BD8DC3F779155D46D /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,19 +427,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		C7B32E7ECD0FB5BB9D489ACD /* Copy Pods Resources */ = {
+		402FEC90F21FFD2C8F5299C3 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WatchScreensaver/Pods-WatchScreensaver-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -506,7 +506,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -542,7 +542,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -550,7 +550,7 @@
 		};
 		C76076331BCFFCB200ED2870 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 529BD954D4D98194135C8C52 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 63EA899E3720947A178DB0A5 /* Pods-WatchScreensaver.debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = WatchScreensaver/Info.plist;
@@ -563,7 +563,7 @@
 		};
 		C76076341BCFFCB200ED2870 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A97A2586BA1827BFBD8E891E /* Pods.release.xcconfig */;
+			baseConfigurationReference = 1E2364ED2D267F7F9F05CFBA /* Pods-WatchScreensaver.release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = WatchScreensaver/Info.plist;

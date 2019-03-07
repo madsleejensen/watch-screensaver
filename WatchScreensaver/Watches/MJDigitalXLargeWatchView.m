@@ -115,11 +115,11 @@
     CGFloat deltaBottomWidth = maxWidth - bottomFrame.size.width;
 
     topFrame.origin.x = offsetX;
-    topFrame.origin.y = -(self.topDigitsLabel.frame.size.height * 0.29f);
+    topFrame.origin.y = -(self.topDigitsLabel.frame.size.height * 0.15f);
     topFrame.size.width = maxWidth;
 
     bottomFrame.origin.x = offsetX;
-    bottomFrame.origin.y = self.bottomDigitsLabel.frame.size.height*0.25f;
+    bottomFrame.origin.y = self.bottomDigitsLabel.frame.size.height * 0.52f;
     bottomFrame.size.width = maxWidth;
 
     separatorFrame.origin.y = bottomFrame.origin.y;
